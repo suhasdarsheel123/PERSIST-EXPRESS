@@ -23,6 +23,9 @@ function saveFaculties(data) {
     fs.writeFileSync(FILE_PATH, JSON.stringify(data, null, 2), 'utf-8');
 }
 
+app.get('/', (req, res) => {
+  res.send('Faculty API is running!');
+});
 // 1. CREATE: Add a new faculty member
 app.post('/faculties', (req, res) => {
     try {
