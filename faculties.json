@@ -1,0 +1,14 @@
+[
+  {
+    "id": 2,
+    "name": "Dr. Marie Curie",
+    "department": "Physics",
+    "designation": "Associate Professor"
+  },
+  {
+    "id": 3,
+    "name": "Dr. John Nash",
+    "department": "Mathematics",
+    "designation": "Assistant Professor"
+  }
+]
